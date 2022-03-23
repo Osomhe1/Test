@@ -5,7 +5,7 @@ import MoviesCard from './MoviesCard';
 
 export default function SearchMovie() {
   const [query, setQuery] = useState('');
-  const [movies, setMovies] = useState('');
+  // const [movies, setMovies] = useState('');
 
   const searchMovie = async e => {
     e.preventDefault(e);
@@ -17,7 +17,7 @@ export default function SearchMovie() {
     try {
       const res = await axios.get(url);
       console.log(res);
-      setMovies(res);
+      // setMovies(res);
     } catch (error) {
       console.log(error);
     }

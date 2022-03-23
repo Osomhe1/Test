@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@chakra-ui/react';
 
 export default function MoviesCard(props) {
-  const { movie } = props;
+  // const { movie } = props;
 
   return (
     <Box
